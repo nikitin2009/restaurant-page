@@ -1,4 +1,4 @@
-const main = document.createElement('main');
+const home = document.createElement('main');
 const figure = document.createElement('figure');
 const section = document.createElement('section');
 
@@ -12,7 +12,8 @@ section.innerHTML = `
   <p>Come assolutamente divino è affondare la forchetta nel velluto del suo delizioso tortino al cioccolato, mentre tutta Roma si sdraia ai tuoi piedi da questa terrazza panoramica che domina la Capitale.</p>
 `;
 
-main.appendChild(figure);
-main.appendChild(section);
+home.classList.add('two-cols');
+home.appendChild(figure);
+home.appendChild(section);
 
-export default main;
+export default home;
