@@ -10,3 +10,27 @@ body {
                       transparent 0);
   background-size: 50px 50px;
 }
+
+#content {
+  max-width: 980px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  background-color: #fff;
+  margin: 20px;
+  padding: 25px 35px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 48px;
+  color: #ef4747;
+  text-shadow: 1px 1px 2px;
+  border: 3px solid #f5cc04;
+  border-radius: 50px;
+  box-shadow: 0 0 0 2px #fff;
+}
