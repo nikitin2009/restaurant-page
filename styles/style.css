@@ -12,7 +12,7 @@ body {
 }
 
 #content {
-  max-width: 980px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 15px;
 }
@@ -33,4 +33,31 @@ header {
   border: 3px solid #f5cc04;
   border-radius: 50px;
   box-shadow: 0 0 0 2px #fff;
+}
+
+main {
+  display: flex;
+  background-color: rgba(255, 255, 255, .8);
+  border: 3px solid #f5e07b;
+  border-radius: 5px;
+  box-shadow: 0 0 0 2px #fff;
+}
+
+main > figure,
+main > section {
+  width: 50%;
+}
+
+figure {
+  margin: 0;
+}
+
+figure img {
+  width: 100%;
+}
+
+section {
+  padding: 0 20px;
+  font-family: cursive;
+  color: #141433;
 }
